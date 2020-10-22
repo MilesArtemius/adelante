@@ -1,0 +1,8 @@
+// GAME (aka LOBBY aka ROOM) object - represents a game instance.
+{
+                       data: "JSON object",
+                       host: "string",         // Username of the host, left-side player
+                       guest: "string",        // Username of the guest, right-side player
+                       viewers: "number",      // Number of users, connected to the lobby via sockets
+  /*server-side only*/ interval: "function"    // A function, updating game loop
+}

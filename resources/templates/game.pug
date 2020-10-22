@@ -1,0 +1,17 @@
+html(lang="ru")
+    head
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+
+        block header
+            title Base HTML
+
+        <!-- link(rel="icon" href="favicon.ico" type="image/x-icon")-->
+        link(rel="stylesheet" type="text/css" href="./game.min.css")
+
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js")
+
+    body
+        canvas(id="main")
+
+        script(src="game.min.js")
